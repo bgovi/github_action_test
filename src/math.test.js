@@ -12,3 +12,10 @@ describe('add', () => {
     expect(typeof result).toBe('number');
   });
 });
+
+
+describe('reject', () => {
+    test('fail', ()=> {
+        expect(1).toEqual(2)
+    })
+})
